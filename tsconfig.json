@@ -1,0 +1,11 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6", "DOM"], // explains TS which APIs I am going to use!
+    "strict": true,
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
